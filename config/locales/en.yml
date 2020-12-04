@@ -5,6 +5,16 @@ en:
       en: "English"
       vi: "Vietnamese"
       base_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      title: "Sample App"
+      link_title: "Home"
+      link_title1: "Help"
+      link_title2: "Login"
+    footer:
+      title: "The Ruby on Rails Tutorial"
+      link_title: "About"
+      link_title1: "Contact"
+      link_title2: "News"
   static_pages:
     home:
       title: "Home"
@@ -13,7 +23,6 @@ en:
       link_title: "Ruby on Rails Tutorial"
     contact:
       title: "Contact"
-      ct1: "Contact"
       paragraph: "Contact the Ruby on Rails Tutorial about the sample app at the"
       link_title: "contact page"
     help:
@@ -23,6 +32,9 @@ en:
       link_title: "Rails Tutorial Help page"
     about:
       title: "About"
-      ct1: "About"
       paragraph: "This is the sample app for the tutorial."
       link_title: "Ruby on Rails"
+  users:
+    new:
+      title: "Sign up"
+      paragraph: "This will be a signup page for new users."
