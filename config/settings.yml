@@ -1,3 +1,6 @@
+footer:
+  path_link: "https://www.railstutorial.org/"
+  path_link1: "https://news.railstutorial.org/"
 home:
   path_link: "https://www.railstutorial.org/"
 help:
