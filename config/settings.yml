@@ -1,0 +1,8 @@
+home:
+  path_link: "https://www.railstutorial.org/"
+help:
+ path_link: "https://www.railstutorial.org/help"
+contact:
+  path_link: "https://www.railstutorial.org/contact"
+about:
+  path_link: "https://rubyonrails.org/"
