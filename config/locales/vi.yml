@@ -4,6 +4,7 @@ vi:
       title: "Ruby on Rails Tutorial Sample App"
       en: "Tieng Anh"
       vi: "Tieng Viet"
+      base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       title: "Trang Chủ"
