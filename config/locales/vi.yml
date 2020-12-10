@@ -18,6 +18,7 @@ vi:
   static_pages:
     home:
       title: "Trang Chủ"
+      ct1: "Sample App"
       paragraph: "Đây là trang chủ của"
       link_title: "Ruby on Rails Tutorial"
     contact:
