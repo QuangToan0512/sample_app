@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  USER_PERMIT = %i(name email password password_confirmation)
   before_save :downcase_email
 
   validates :name, presence: true,

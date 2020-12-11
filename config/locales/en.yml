@@ -38,3 +38,16 @@ en:
     new:
       title: "Sign up"
       paragraph: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      create: "Create my account"
+    show:
+      message: "user not found"
+    create:
+      message_success: "Welcome to the Sample App"
+      message_danger: "Failed"
+  signup:
+    message:
+      messages_count: "The form contains"

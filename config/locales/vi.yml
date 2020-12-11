@@ -33,7 +33,20 @@ vi:
       title: "Về chúng tôi"
       paragraph: "Đây là ứng dụng mẫu cho hướng dẫn"
       link_title: "Ruby on Rails"
+  shared:
+    _error_messages:
+      title: "Loi"
   users:
     new:
       title: "Đăng ký"
       paragraph: "Đây là trang đăng ký cho người dùng mới."
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản mới"
+    show:
+      message: "Không tìm thấy người dùng"
+    create:
+      message_success: "Chào mừng đến với Sample App"
+      message_danger: "Thất bại"
