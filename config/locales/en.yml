@@ -10,11 +10,28 @@ en:
       link_title: "Home"
       link_title1: "Help"
       link_title2: "Login"
+      users: "Users"
+      profile: "Profile"
+      settings: "Setting"
+      logout: "Logout"
+      account: "Account"
     footer:
       title: "The Ruby on Rails Tutorial"
       link_title: "About"
       link_title1: "Contact"
       link_title2: "News"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      login: "Login"
+      new: "New user?"
+      signup: "Sign up now!"
+    create:
+      message: "Invalid email/password"
+      message_success_login: "Login successfull"
+    destroy:
+      message_success_logout: "Logout successfull"
   static_pages:
     home:
       title: "Home"
