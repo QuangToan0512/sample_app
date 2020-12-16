@@ -10,11 +10,28 @@ vi:
       link_title: "Trang chủ"
       link_title1: "Trợ giúp"
       link_title2: "Đăng nhập"
+      users: "Người dùng"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      account: "Tài khoản"
     footer:
       title: "The Ruby on Rails Tutorial"
       link_title: "Về chúng tôi"
       link_title1: "Liên hệ"
       link_title2: "Tin tức"
+  sessions:
+    new:
+      email: "Email"
+      password: "Mật khẩu"
+      login: "Đăng nhập"
+      new: "Người dùng mới?"
+      signup: "Đăng ký ngay!"
+    create:
+      message: "Email / mật khẩu không hợp lệ"
+      message_success_login: "Đăng nhập thành công"
+    destroy:
+      message_success_logout: "Đăng xuất thành công"
   static_pages:
     home:
       title: "Trang Chủ"
@@ -50,3 +67,6 @@ vi:
     create:
       message_success: "Chào mừng đến với Sample App"
       message_danger: "Thất bại"
+  signup:
+    message:
+      messages_count: "The form contains"
