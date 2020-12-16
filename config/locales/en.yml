@@ -27,6 +27,7 @@ en:
       login: "Login"
       new: "New user?"
       signup: "Sign up now!"
+      remember: "Remember me on this computer"
     create:
       message: "Invalid email/password"
       message_success_login: "Login successfull"
