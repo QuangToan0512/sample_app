@@ -55,6 +55,7 @@ en:
   users:
     new:
       title: "Sign up"
+      title1: "Create my account"
       paragraph: "This will be a signup page for new users."
       name: "Name"
       email: "Email"
@@ -66,6 +67,23 @@ en:
     create:
       message_success: "Welcome to the Sample App"
       message_danger: "Failed"
+    update:
+      message_success: "Profile updated"
+      message_danger: "Updated failed"
+    destroy:
+      message_success: "User deleted"
+      message_danger: "Failed"
+    logged_in_user:
+      message_danger: "Please log in."
+    edit:
+      title: "Edit user"
+      title1: "Save changes"
+      ct1: "Update your profile"
+      change: "Change"
+    index:
+      ct1: "All users"
+      delete: "Delete"
   signup:
     message:
       messages_count: "The form contains"
+    login: "You need signup/login"

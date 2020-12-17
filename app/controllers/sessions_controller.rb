@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
       log_in user
       params[:session][:remember_me] == Settings.number.checkbox ? remember(user) : forget(user)
       flash[:success] = t ".message_success_login"
-      redirect_to user
+      redirect_back_or user
     else
       flash[:danger] = t ".message"
       render :new

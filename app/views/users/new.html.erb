@@ -1,19 +1,9 @@
 <% provide :title, t(".title") %>
+<% provide :button_text, t(".title1") %>
 <h1><%= t ".title" %></h1>
 <p><%= t ".paragraph" %></p>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= render "shared/error_messages" %>
-    <%= form_for(@user) do |f| %>
-      <%= f.label t ".name" %>
-      <%= f.text_field :name, class: "form-control" %>
-      <%= f.label t ".email" %>
-      <%= f.email_field :email, class: "form-control" %>
-      <%= f.label t ".password" %>
-      <%= f.password_field :password , class: "form-control" %>
-      <%= f.label t ".confirmation" %>
-      <%= f.password_field :password_confirmation, class: "form-control" %>
-      <%= f.submit t(".create"), class: "btn btn-primary" %>
-    <% end %>
+    <%= render "form" %>
   </div>
 </div>
