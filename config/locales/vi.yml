@@ -27,6 +27,7 @@ vi:
       login: "Đăng nhập"
       new: "Người dùng mới?"
       signup: "Đăng ký ngay!"
+      remember: "Nhớ tôi trên máy tính này"
     create:
       message: "Email / mật khẩu không hợp lệ"
       message_success_login: "Đăng nhập thành công"
