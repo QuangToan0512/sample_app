@@ -57,6 +57,7 @@ vi:
   users:
     new:
       title: "Đăng ký"
+      title1: "Tạo tài khoản của tôi"
       paragraph: "Đây là trang đăng ký cho người dùng mới."
       name: "Tên"
       email: "Email"
@@ -68,6 +69,22 @@ vi:
     create:
       message_success: "Chào mừng đến với Sample App"
       message_danger: "Thất bại"
+    update:
+      message_success: "Hồ sơ cá nhân đã cập nhật"
+    destroy:
+      message_success: "Người dùng đã bị xóa"
+      message_danger: "Thất bại"
+    logged_in_user:
+      message_danger: "Vui lòng hãy đăng nhập."
+    edit:
+      title: "Chỉnh sửa người dùng"
+      title1: "Lưu thay đổi"
+      ct1: "Cập nhật hồ sơ của bạn"
+      change: "Thay đổi"
+    index:
+      ct1: "Tất cả người sử dụng"
+      delete: "Xóa"
   signup:
     message:
       messages_count: "The form contains"
+    login: "Ban can dang nhap/dang ki tai khoan"

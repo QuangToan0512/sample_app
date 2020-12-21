@@ -15,7 +15,11 @@ user:
     name_length_max: 50
     email_length_max: 255
     pass_length_min: 6
+    size_gravatar: 50
   helpers:
     user_gravatar: 80
+  edit_user_path: "https://gravatar.com/emails"
 number:
   checkbox: "1"
+paginate:
+  number_of_page: 10
