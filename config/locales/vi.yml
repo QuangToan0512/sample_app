@@ -31,6 +31,7 @@ vi:
     create:
       message: "Email / mật khẩu không hợp lệ"
       message_success_login: "Đăng nhập thành công"
+      not_active: "Tai khoan chua dc kich hoat. Kiem tra email de kich hoat tai khoan."
     destroy:
       message_success_logout: "Đăng xuất thành công"
   static_pages:
@@ -69,6 +70,7 @@ vi:
     create:
       message_success: "Chào mừng đến với Sample App"
       message_danger: "Thất bại"
+      check_mail: "Please check your email to activate your account."
     update:
       message_success: "Hồ sơ cá nhân đã cập nhật"
     destroy:
@@ -84,7 +86,17 @@ vi:
     index:
       ct1: "Tất cả người sử dụng"
       delete: "Xóa"
+  user_mailer:
+    account_activation:
+      sub_title: "Sample app"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      hi: "Xin chào"
+      active: "Kích hoạt"
   signup:
     message:
       messages_count: "The form contains"
     login: "Ban can dang nhap/dang ki tai khoan"
+  activation:
+    message:
+      success: "Tài khoản đã được kích hoạt!"
+      danger: "Liên kết kích hoạt không hợp lệ"

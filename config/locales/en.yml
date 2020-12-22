@@ -31,6 +31,7 @@ en:
     create:
       message: "Invalid email/password"
       message_success_login: "Login successfull"
+      not_active: "Account not activated. Check your email for the activation link."
     destroy:
       message_success_logout: "Logout successfull"
   static_pages:
@@ -67,6 +68,7 @@ en:
     create:
       message_success: "Welcome to the Sample App"
       message_danger: "Failed"
+      check_mail: "Please check your email to activate your account."
     update:
       message_success: "Profile updated"
       message_danger: "Updated failed"
@@ -83,7 +85,17 @@ en:
     index:
       ct1: "All users"
       delete: "Delete"
+  user_mailer:
+    account_activation:
+      sub_title: "sample app"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      hi: "Hello "
+      active: "Active"
   signup:
     message:
       messages_count: "The form contains"
     login: "You need signup/login"
+  activation:
+    message:
+      success: "Account activated!"
+      danger: "Invalid activation link"
