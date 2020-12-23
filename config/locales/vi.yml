@@ -28,6 +28,7 @@ vi:
       new: "Người dùng mới?"
       signup: "Đăng ký ngay!"
       remember: "Nhớ tôi trên máy tính này"
+      forgot_pass: "Quên mật khẩu"
     create:
       message: "Email / mật khẩu không hợp lệ"
       message_success_login: "Đăng nhập thành công"
@@ -92,6 +93,12 @@ vi:
       welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
       hi: "Xin chào"
       active: "Kích hoạt"
+    password_reset:
+      sub_title: "Lam moi mat khau"
+      find_me: "Tim toi tai"
+      reset_link: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      time_out: "Liên kết này sẽ hết hạn sau hai giờ."
+      not_change: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
   signup:
     message:
       messages_count: "The form contains"
@@ -100,3 +107,23 @@ vi:
     message:
       success: "Tài khoản đã được kích hoạt!"
       danger: "Liên kết kích hoạt không hợp lệ"
+    subject: "Kích hoạt tài khoản"
+    reset_password: "Đặt lại mật khẩu"
+  password_resets:
+    create:
+      message:
+        info: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+        danger: "Không tìm thấy địa chỉ email"
+    update:
+      message: "Không thể để trống"
+      success: "Mật khẩu đã được đặt lại."
+      reset_failed: "Thất bại"
+    edit:
+      sub_title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      update: "Cập nhật mật khẩu"
+    new:
+      sub_title: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi đi"

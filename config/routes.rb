@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   root "static_pages#home"
   get "home", to: "static_pages#home"
   get "help", to: "static_pages#help"
@@ -11,4 +12,5 @@ Rails.application.routes.draw do
 
   resources :users
   resource :account_activations, only: [:edit]
+  resources :password_resets, expect: %i(show index destroy)
 end

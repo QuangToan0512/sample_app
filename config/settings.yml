@@ -23,3 +23,4 @@ number:
   checkbox: "1"
 paginate:
   number_of_page: 10
+time_active: 2
