@@ -28,6 +28,7 @@ en:
       new: "New user?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
+      forgot_pass: "Forgot password"
     create:
       message: "Invalid email/password"
       message_success_login: "Login successfull"
@@ -91,6 +92,12 @@ en:
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       hi: "Hello "
       active: "Active"
+    password_reset:
+      sub_title: "Reset password"
+      find_me: "find me in"
+      reset_link: "To reset your password click the link below:"
+      time_out: "This link will expire in two hours."
+      not_change: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   signup:
     message:
       messages_count: "The form contains"
@@ -99,3 +106,23 @@ en:
     message:
       success: "Account activated!"
       danger: "Invalid activation link"
+    subject: "Account activation"
+    reset_password: "Password reset"
+  password_resets:
+    create:
+      message:
+        info: "Email sent with password reset instructions"
+        danger: "Email address not found"
+    update:
+      message: "can't be empty"
+      success: "Password has been reset."
+      reset_failed: "Failed"
+    edit:
+      sub_title: "Reset password"
+      password: "password"
+      confirmation: "confirm password"
+      update: "Update password"
+    new:
+      sub_title: "Forgot password"
+      email: "Email"
+      submit: "Submit"
